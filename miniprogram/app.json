@@ -1,0 +1,114 @@
+{
+	"pages": [
+		"projects/B00/pages/default/index/default_index",
+		"projects/B00/pages/about/index/about_index",
+		"projects/B00/pages/product/detail/product_detail",
+		"projects/B00/pages/product/index/product_index",
+		"projects/B00/pages/album/detail/album_detail",
+		"projects/B00/pages/album/index/album_index",
+		"projects/B00/pages/meet/index/meet_index",
+		"projects/B00/pages/meet/calendar/meet_calendar",
+		"projects/B00/pages/meet/join/meet_join",
+		"projects/B00/pages/meet/detail/meet_detail",
+		"projects/B00/pages/meet/self/meet_self",
+		"projects/B00/pages/meet/my_join/meet_my_join",
+		"projects/B00/pages/meet/my_join_detail/meet_my_join_detail",
+		"projects/B00/pages/news/index/news_index",
+		"projects/B00/pages/news/detail/news_detail",
+		"projects/B00/pages/news/cate1/news_cate1",
+		"projects/B00/pages/news/cate2/news_cate2",
+		"projects/B00/pages/search/search",
+		"projects/B00/pages/my/index/my_index",
+		"projects/B00/pages/my/reg/my_reg",
+		"projects/B00/pages/my/edit/my_edit",
+		"projects/B00/pages/my/foot/my_foot",
+		"projects/B00/pages/my/fav/my_fav",
+		"projects/B00/pages/admin/index/home/admin_home",
+		"projects/B00/pages/admin/index/login/admin_login",
+		"projects/B00/pages/admin/content/admin_content",
+		"projects/B00/pages/admin/meet/cover/admin_meet_cover",
+		"projects/B00/pages/admin/meet/edit/admin_meet_edit",
+		"projects/B00/pages/admin/meet/export/admin_join_export",
+		"projects/B00/pages/admin/meet/join/admin_meet_join",
+		"projects/B00/pages/admin/meet/list/admin_meet_list",
+		"projects/B00/pages/admin/meet/record/admin_record_list",
+		"projects/B00/pages/admin/meet/scan/admin_meet_scan",
+		"projects/B00/pages/admin/meet/self/admin_meet_self",
+		"projects/B00/pages/admin/meet/temp/admin_temp_select",
+		"projects/B00/pages/admin/meet/time/admin_meet_time",
+		"projects/B00/pages/admin/mgr/log/admin_log_list",
+		"projects/B00/pages/admin/news/list/admin_news_list",
+		"projects/B00/pages/admin/news/add/admin_news_add",
+		"projects/B00/pages/admin/news/edit/admin_news_edit",
+		"projects/B00/pages/admin/setup/about/admin_setup_about",
+		"projects/B00/pages/admin/setup/qr/admin_setup_qr",
+		"projects/B00/pages/admin/user/list/admin_user_list",
+		"projects/B00/pages/admin/user/detail/admin_user_detail",
+		"projects/B00/pages/admin/user/export/admin_user_export",
+		"projects/B00/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/B00/pages/admin/mgr/list/admin_mgr_list",
+		"projects/B00/pages/admin/mgr/add/admin_mgr_add",
+		"projects/B00/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/B00/pages/admin/album/list/admin_album_list",
+		"projects/B00/pages/admin/album/add/admin_album_add",
+		"projects/B00/pages/admin/album/edit/admin_album_edit",
+		"projects/B00/pages/admin/product/list/admin_product_list",
+		"projects/B00/pages/admin/product/add/admin_product_add",
+		"projects/B00/pages/admin/product/edit/admin_product_edit",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "通用婚纱影楼小程序",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#fefefe",
+		"color": "#999999",
+		"selectedColor": "#ff6b6b",
+		"list": [
+			{
+				"pagePath": "projects/B00/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/B00/images/tabbar/home.png",
+				"selectedIconPath": "/projects/B00/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/B00/pages/album/index/album_index",
+				"text": "样片",
+				"iconPath": "/projects/B00/images/tabbar/album.png",
+				"selectedIconPath": "/projects/B00/images/tabbar/album_cur.png"
+			},
+			{
+				"pagePath": "projects/B00/pages/product/index/product_index",
+				"text": "套系",
+				"iconPath": "/projects/B00/images/tabbar/product.png",
+				"selectedIconPath": "/projects/B00/images/tabbar/product_cur.png"
+			},
+			{
+				"pagePath": "projects/B00/pages/meet/calendar/meet_calendar",
+				"text": "预约日历",
+				"iconPath": "/projects/B00/images/tabbar/day.png",
+				"selectedIconPath": "/projects/B00/images/tabbar/day_cur.png"
+			},
+			{
+				"pagePath": "projects/B00/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/B00/images/tabbar/my.png",
+				"selectedIconPath": "/projects/B00/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
