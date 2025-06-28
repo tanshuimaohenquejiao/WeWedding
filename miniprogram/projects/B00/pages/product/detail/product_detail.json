@@ -1,0 +1,7 @@
+{
+	"usingComponents": { 
+		"cmpt-swiper": "/cmpts/public/swiper/swiper_cmpt"
+	},
+	"enablePullDownRefresh": true, 
+	"navigationBarTitleText": "套系详情"
+}

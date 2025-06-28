@@ -1,0 +1,51 @@
+<view wx:if="{{isLoad===null}}" class="margin-top load notexist text-l load-project"></view>
+<view wx:if="{{isLoad===false}}" class="margin-top load loading text-l load-project"></view>
+
+<block wx:if="{{isLoad}}">
+	<cmpt-swiper mode="widthFix" indicatorActiveColor="#ff6b6b" height="420" images="{{product.PRODUCT_OBJ.album}}" />
+	<view class="main">
+		<view class="header shadow-project">
+			<view class="line1 title-project">{{product.PRODUCT_TITLE}}</view>
+			<view class="line2"><text class="text-s margin-right-xxs">¥</text>{{product.PRODUCT_OBJ.price}}<text class="price" ><text class="text-xs margin-left-xs">¥</text>{{product.PRODUCT_OBJ.origPrice}}</text></view>
+			<view class="line3 text-grey">{{product.PRODUCT_OBJ.adv}}</view>
+		</view>
+		<view class="content shadow-project">
+			<view class="item">
+				<view class="title title-project">摄影服务</view>
+				<view class="desc"><text user-select>{{product.PRODUCT_OBJ.service}}</text>
+				</view>
+			</view>
+			<view class="item">
+				<view class="title title-project">行程安排</view>
+				<view class="desc"><text user-select>{{product.PRODUCT_OBJ.item}}</text>
+				</view>
+			</view>
+			<view class="item">
+				<view class="title title-project">影像产品</view>
+				<view class="desc"><text user-select>{{product.PRODUCT_OBJ.product}}</text>
+				</view>
+			</view>
+			<view class="item">
+				<view class="title title-project">套系简介</view>
+				<view class="desc"><text user-select>{{product.PRODUCT_OBJ.desc}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="footer">
+		<button class="share clearbtn" open-type="share">
+			<text class="icon-forward"></text>
+			<text class="text-s">分享</text>
+		</button>
+		<view bindtap="bindFavTap" class="fav cur" wx:if="{{isFav>0}}">
+			<text class="icon-favorfill"></text>
+			<text class="text-s">已收藏</text>
+		</view>
+		<view bindtap="bindFavTap" class="fav" wx:else>
+			<text class="icon-favor"></text>
+			<text class="text-s">收藏</text>
+		</view>
+		<button open-type="contact" show-message-card="{{true}}" send-message-title="套系咨询-{{product.PRODUCT_TITLE}}" class="clearbtn svr">立即咨询</button>
+	</view>
+</block>
