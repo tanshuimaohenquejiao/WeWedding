@@ -1,7 +1,0 @@
-{
-	"component": true,
-	"usingComponents": {
-		"cmpt-checkbox": "/cmpts/public/checkbox/checkbox_cmpt",
-		"cmpt-img-upload": "/cmpts/public/img/img_upload_cmpt"
-	}
-}
